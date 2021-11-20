@@ -1,0 +1,58 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Hugo Fresh Theme
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/fresh.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: behind the requests
+    # Hero subtitle (optional)
+    subtitle: passionate backend and devops engineers that enjoy solving problems
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+  section2:
+    title: we like solving problems
+    subtitle: and we are good at it
+    features:
+    - title: Backend development and Software Architecture
+      text: From big problems to small problems, monoliths to microservices, Web APIs and API gateways, backends for frontends (BFFs), queue-based architectures, using HTTP, gRPC, AMPQ as a transporting protocols, we enjoy coming up with architectures that are simple for a MVP but can grow into complex solutions over time and also turning existent architectures into scalable architectures. Python and Go are our main technology of focus, but we are open to different things.
+      icon: laptop-globe
+    - title: DevOps and Cloud Infrastructure
+      text: We are passionate about the automations that bring a software from the source code to the production environment. This production environment is, on our ideal architecture, developer-friendly infrastructure running on cloud platforms, but always having a close eyes on cloud costs. We are also passionate about keeping sofware up and running seamlessly in production environments in a reliable and scalable way.
+      icon: doc-sync
+  section5: false
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/behindtherequests
+      icon: github
+    - link: https://twitter.com/behindthereqs
+      icon: twitter
+    - link: https://www.instagram.com/behindtherequests/
+      icon: behindtherequests
+    bulmalogo: false
