@@ -27,6 +27,16 @@ params:
     subtitle: backend and devops engineering
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
+  navbar:
+  - title: GitHub
+    url: https://github.com/behindtherequests
+    button: true
+  - title: Twitter
+    url: https://twitter.com/behindthereqs
+    button: true
+  - title: Instagram
+    url: https://www.instagram.com/behindtherequests/
+    button:  true
   section2:
     features:
     - title: Backend development and Software Architecture
@@ -36,15 +46,15 @@ params:
       text: We are passionate about the automations that bring a software from the source code to the production environment. This production environment is, on our ideal architecture, developer-friendly infrastructure running on cloud platforms, but always having a close eyes on cloud costs. We are also passionate about keeping sofware up and running seamlessly in production environments in a reliable and scalable way.
       icon: doc-sync
   section5: false
-  # footer:
-  #   # Social Media Title
-  #   socialmediatitle: Follow Us
-  #   # Social media links (GitHub, Twitter, etc.). All are optional.
-  #   socialmedia:
-  #   - link: https://github.com/behindtherequests
-  #     icon: github
-  #   - link: https://twitter.com/behindthereqs
-  #     icon: twitter
-  #   - link: https://www.instagram.com/behindtherequests/
-  #     icon: behindtherequests
-  #   bulmalogo: false
+  footer:
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link:  https://github.com/behindtherequests
+      icon: github
+    - link: https://twitter.com/behindthereqs
+      icon: twitter
+    - link: https://www.instagram.com/behindtherequests/
+      icon: instagram
+    bulmalogo: false
