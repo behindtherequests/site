@@ -3,6 +3,10 @@
 {{ partial "hero.html" . }}
 {{ end }}
 
+{{ if .Site.Params.footer }}
+{{ partial "footer.html" . }}
+{{ end }}
+
 <!-- Back To Top Button -->
 <div id="backtotop"><a href="#"></a></div>
 

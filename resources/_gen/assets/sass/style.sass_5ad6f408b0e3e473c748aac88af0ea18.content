@@ -6225,7 +6225,7 @@ Navbar
     background: #fff;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12); }
     .navbar.is-fresh.is-fixed a {
-      color: #444F60; }
+      color: #171F2B; }
       .navbar.is-fresh.is-fixed a:hover {
         color: #4FC1EA; }
 
@@ -6370,7 +6370,7 @@ img.pushed-image {
   .media.icon-box .media-content .content p span {
     display: block; }
   .media.icon-box .media-content .content p .icon-box-title {
-    color: #444F60;
+    color: #171F2B;
     font-size: 1.2rem;
     font-weight: 600; }
   .media.icon-box .media-content .content p .icon-box-text {
@@ -6398,8 +6398,9 @@ Hero styles
 Fresh Footer
 ========================================================================== */
 footer.footer-dark {
-  background: #444F60;
-  color: #fff; }
+  background: #171F2B;
+  color: #fff;
+  padding: 0em; }
   footer.footer-dark .columns {
     margin-top: 35px; }
   footer.footer-dark .footer-logo img {
@@ -6524,7 +6525,7 @@ Cards and Card content styles
     padding-top: 25px;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #444F60; }
+    color: #171F2B; }
   .feature-card .card-icon img {
     height: 120px;
     margin-top: 20px; }
@@ -6907,7 +6908,7 @@ Testimonials Styles
       margin: 0;
       font-weight: 600;
       font-size: 1.2rem;
-      color: #444F60; }
+      color: #171F2B; }
     .testimonial .author span {
       font-size: 0.8em;
       color: #fff;

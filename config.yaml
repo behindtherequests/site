@@ -27,9 +27,8 @@ params:
     subtitle: backend, devops and platform engineering
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
+    logo: btr-full.png
   footer:
-    # Social Media Title
-    socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link:  https://github.com/behindtherequests
