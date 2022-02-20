@@ -24,7 +24,7 @@ params:
     # Main hero title
     title: behind the requests
     # Hero subtitle (optional)
-    subtitle: backend and devops engineering
+    subtitle: backend, devops and platform engineering
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
   footer:
