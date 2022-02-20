@@ -1,7 +1,7 @@
 baseURL: http://something-fresh.org/
 languageCode: en-us
-title: Behind the requests
-theme: hugo-fresh
+title: behind the requests
+theme: hugo-fresh-edited
 googleAnalytics: 
 # Disables warnings
 disableKinds:
@@ -27,25 +27,6 @@ params:
     subtitle: backend and devops engineering
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
-  navbar:
-  - title: GitHub
-    url: https://github.com/behindtherequests
-    button: true
-  - title: Twitter
-    url: https://twitter.com/behindthereqs
-    button: true
-  - title: Instagram
-    url: https://www.instagram.com/behindtherequests/
-    button:  true
-  section2:
-    features:
-    - title: Backend development and Software Architecture
-      text: From big problems to small problems, monoliths to microservices, Web APIs and API gateways, backends for frontends (BFFs), queue-based architectures, using HTTP, gRPC, AMPQ as a transporting protocols, we enjoy coming up with architectures that are simple for a MVP but can grow into complex solutions over time and also turning existent architectures into scalable architectures. Python and Go are our main technology of focus.
-      icon: laptop-globe
-    - title: DevOps and Cloud Infrastructure
-      text: We are passionate about the automations that bring a software from the source code to the production environment. This production environment is, on our ideal architecture, developer-friendly infrastructure running on cloud platforms, but always having a close eyes on cloud costs. We are also passionate about keeping sofware up and running seamlessly in production environments in a reliable and scalable way.
-      icon: doc-sync
-  section5: false
   footer:
     # Social Media Title
     socialmediatitle: Follow Us
@@ -57,4 +38,4 @@ params:
       icon: twitter
     - link: https://www.instagram.com/behindtherequests/
       icon: instagram
-    bulmalogo: false
+    bulmalogo: true
