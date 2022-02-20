@@ -6400,7 +6400,9 @@ Fresh Footer
 footer.footer-dark {
   background: #171F2B;
   color: #fff;
-  padding: 0em; }
+  padding: 0em;
+  margin-top: -7em;
+  height: 5em; }
   footer.footer-dark .columns {
     margin-top: 35px; }
   footer.footer-dark .footer-logo img {
